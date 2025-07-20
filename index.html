@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel='stylesheet' href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genarate Password</title>
+</head>
+<body>
+     <main>
+          <div id="containaire">
+         <h1>Password Generatore</h1>
+          <table>
+               <tr>
+                    <td><input type="text" placeholder="Password Genarated" name="password" id="password" readonly>
+                        <span><img src="copy.png" alt="copy-button" width="25px" id="copy-btn"></span>
+                    </td>
+               </tr>
+
+                   <tr>
+                    <td>
+                        <label for="passw-lgh">Password Length</label>
+                    <td>
+                          <input type="number" name="nbr-length" id="nbr-length">
+                    </td>
+               </tr>
+
+
+
+                <tr>
+                     <td>
+                        <label for="Uppercase">Include Uppercase Letters</label>
+                     </td>
+                     <td>
+                        <input type="checkbox" name="letter-upper" id="letter-upper">
+                     </td>
+               </tr>
+
+
+
+
+             <tr>
+                     <td>
+                        <label for="lowercase">Include Lowercase Letters</label>
+                     </td>
+                     <td>
+                        <input type="checkbox" name="letter-lower" id="letter-lower">
+                     </td>
+               </tr>
+
+
+
+               
+
+             <tr>
+                     <td>
+                        <label for="numbers">Include Numbers</label>
+                     </td>
+                     <td>
+                        <input type="checkbox" name="numbers" id="numbers">
+                     </td>
+            </tr>
+
+
+               <tr>
+                     <td>
+                        <label for="symbols">Include Symbols</label>
+                     </td>
+                     <td>
+                        <input type="checkbox" name="symbols" id="symbols">
+                     </td>
+            </tr>
+
+        <tr>
+               <td>
+                    <button value="generte password" id="generateure">Generate Password</button>
+               </td>
+        </tr>
+
+
+
+
+          </table>
+     </div>
+     </main>
+     <script src="main.js"></script>
+</body>
+</html>
